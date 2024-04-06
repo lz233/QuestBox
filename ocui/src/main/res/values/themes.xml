@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Ocui" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">@color/oc_text</item>
+        <item name="android:textColorHint">?attr/ocPlaceholderText</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:editTextColor">@color/oc_text</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:fontFamily">optimistic</item>
+        <item name="android:background">@null</item>
+        <item name="ocButtonStyle">@style/OCButton</item>
+        <item name="ocCardStyle">@style/OCCard</item>
+        <item name="android:ambientShadowAlpha">1</item>
+        <item name="android:spotShadowAlpha">0</item>
+        <item name="ocAppTileBorderRadius">12dp</item>
+        <item name="ocButtonBorderRadius">20dp</item>
+        <item name="ocCardBorderRadius">16dp</item>
+        <item name="ocPanelBorderRadius">20dp</item>
+
+        <item name="ocAccent">@color/ocAccent</item>
+        <item name="ocBadge">@color/ocBadge</item>
+        <item name="ocBottomNavBackground">@color/ocBottomNavBackground</item>
+        <item name="ocBrowserNavBackground">@color/ocBrowserNavBackground</item>
+        <item name="ocCardBackground">@color/ocCardBackground</item>
+        <item name="ocCardBackgroundOnMedia">@color/ocCardBackgroundOnMedia</item>
+        <item name="ocCardHoverOutline">@color/ocCardHoverOutline</item>
+        <item name="ocCardHoverOverlay">@color/ocCardHoverOverlay</item>
+        <item name="ocContextMenuBackground">@color/ocContextMenuBackground</item>
+        <item name="ocControlBackgroundActive">@color/ocControlBackgroundActive</item>
+        <item name="ocControlBackgroundInactive">@color/ocControlBackgroundInactive</item>
+        <item name="ocControlBackgroundSegmented">@color/ocControlBackgroundSegmented</item>
+        <item name="ocControlIcon">@color/ocControlIcon</item>
+        <item name="ocDialogBackground">@color/ocDialogBackground</item>
+        <item name="ocDisabledIcon">@color/ocDisabledIcon</item>
+        <item name="ocDisabledText">@color/ocDisabledText</item>
+        <item name="ocDivider">@color/ocDivider</item>
+        <item name="ocHoverOverlay">@color/ocHoverOverlay</item>
+        <item name="ocHoverOverlayOnMedia">@color/ocHoverOverlayOnMedia</item>
+        <item name="ocIconButton">@color/ocIconButton</item>
+        <item name="ocIconButtonBackground">@color/ocIconButtonBackground</item>
+        <item name="ocIconButtonBackgroundOnMedia">@color/ocIconButtonBackgroundOnMedia</item>
+        <item name="ocIconOnMedia">@color/ocIconOnMedia</item>
+        <item name="ocKeyboardHoverOverlay">@color/ocKeyboardHoverOverlay</item>
+        <item name="ocKeyboardPressedOverlay">@color/ocKeyboardPressedOverlay</item>
+        <item name="ocLinkText">@color/ocLinkText</item>
+        <item name="ocLinkTextOnHover">@color/ocLinkTextOnHover</item>
+        <item name="ocLinkTextOnPress">@color/ocLinkTextOnPress</item>
+        <item name="ocMessageBubbleGray">@color/ocMessageBubbleGray</item>
+        <item name="ocMessageBubblePrimary">@color/ocMessageBubblePrimary</item>
+        <item name="ocMessageBubbleText">@color/ocMessageBubbleText</item>
+        <item name="ocMessageReceivedBubbleBackground">@color/ocMessageReceivedBubbleBackground
+        </item>
+        <item name="ocMessageRepliedBackground">@color/ocMessageRepliedBackground</item>
+        <item name="ocNegative">@color/ocNegative</item>
+        <item name="ocNegativeBackground">@color/ocNegativeBackground</item>
+        <item name="ocNotificationBackground">@color/ocNotificationBackground</item>
+        <item name="ocOverlayOnMedia">@color/ocOverlayOnMedia</item>
+        <item name="ocPanelBackground">@color/ocPanelBackground</item>
+        <item name="ocPanelControlBarBackground">@color/ocPanelControlBarBackground</item>
+        <item name="ocPanelSideNavBackground">@color/ocPanelSideNavBackground</item>
+        <item name="ocPlaceholderIcon">@color/ocPlaceholderIcon</item>
+        <item name="ocPlaceholderText">@color/ocPlaceholderText</item>
+        <item name="ocPositive">@color/ocPositive</item>
+        <item name="ocPositiveBackground">@color/ocPositiveBackground</item>
+        <item name="ocPressedOverlay">@color/ocPressedOverlay</item>
+        <item name="ocPressedOverlayOnMedia">@color/ocPressedOverlayOnMedia</item>
+        <item name="ocPrimaryButtonBackground">@color/ocPrimaryButtonBackground</item>
+        <item name="ocPrimaryButtonText">@color/ocPrimaryButtonText</item>
+        <item name="ocPrimaryIcon">@color/ocPrimaryIcon</item>
+        <item name="ocPrimarySlider">@color/ocPrimarySlider</item>
+        <item name="ocPrimaryText">@color/ocPrimaryText</item>
+        <item name="ocPrimaryTextOnMedia">@color/ocPrimaryTextOnMedia</item>
+        <item name="ocProgressBarBackground">@color/ocProgressBarBackground</item>
+        <item name="ocProgressIndicatorBackground">@color/ocProgressIndicatorBackground</item>
+        <item name="ocProgressIndicatorForeground">@color/ocProgressIndicatorForeground</item>
+        <item name="ocRunningAppIndicator">@color/ocRunningAppIndicator</item>
+        <item name="ocScrollbar">@color/ocScrollbar</item>
+        <item name="ocSecondaryButtonBackground">@color/ocSecondaryButtonBackground</item>
+        <item name="ocSecondaryButtonBackgroundOnMedia">@color/ocSecondaryButtonBackgroundOnMedia
+        </item>
+        <item name="ocSecondaryButtonText">@color/ocSecondaryButtonText</item>
+        <item name="ocSecondaryIcon">@color/ocSecondaryIcon</item>
+        <item name="ocSecondarySlider">@color/ocSecondarySlider</item>
+        <item name="ocSecondaryText">@color/ocSecondaryText</item>
+        <item name="ocSecondaryTextOnMedia">@color/ocSecondaryTextOnMedia</item>
+        <item name="ocSliderBackground">@color/ocSliderBackground</item>
+        <item name="ocSteppedProgressBarBackground">@color/ocSteppedProgressBarBackground</item>
+        <item name="ocSteppedProgressBarBackgroundOnMedia">
+            @color/ocSteppedProgressBarBackgroundOnMedia
+        </item>
+        <item name="ocSteppedProgressBarIndicator">@color/ocSteppedProgressBarIndicator</item>
+        <item name="ocSteppedProgressBarIndicatorOnMedia">
+            @color/ocSteppedProgressBarIndicatorOnMedia
+        </item>
+        <item name="ocTabActiveBackground">@color/ocTabActiveBackground</item>
+        <item name="ocTabSecondarySelector">@color/ocTabSecondarySelector</item>
+        <item name="ocTextInputBackground">@color/ocTextInputBackground</item>
+        <item name="ocTextInputNegativeOutline">@color/ocTextInputNegativeOutline</item>
+        <item name="ocTextInputPositiveOutline">@color/ocTextInputPositiveOutline</item>
+        <item name="ocTextInputSelectedOutline">@color/ocTextInputSelectedOutline</item>
+        <item name="ocTextSelectionBackground">@color/ocTextSelectionBackground</item>
+        <item name="ocToastBackground">@color/ocToastBackground</item>
+        <item name="ocTooltipBackground">@color/ocTooltipBackground</item>
+        <item name="ocWarning">@color/ocWarning</item>
+        <item name="ocWarningBackground">@color/ocWarningBackground</item>
+    </style>
+</resources>

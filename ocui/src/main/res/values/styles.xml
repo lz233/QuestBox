@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OCInteractionOverlayDrawableStyle" parent="">
+        <item name="ocInteractionOverlayHover">?attr/ocHoverOverlay</item>
+        <item name="ocInteractionOverlayPress">?attr/ocPressedOverlay</item>
+        <item name="ocInteractionUseBitmapMask">false</item>
+    </style>
+    <style name="OCButton" parent="">
+        <item name="android:textSize">@dimen/abc_text_size_menu_header_material</item>
+        <item name="android:textColor">@null</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/abc_floating_window_z</item>
+        <item name="android:paddingRight">@dimen/abc_floating_window_z</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="OCButton.BackButton" parent="@style/OCButton">
+        <item name="android:background">@drawable/ocbutton_borderless_circle</item>
+        <item name="android:minWidth">36dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="drawableCenter">@drawable/oc_icon_arrow_left_filled_24</item>
+        <item name="drawableCenterPadding">6dp</item>
+    </style>
+    <style name="OCCard" parent="">
+        <item name="ocCardFooterBackground">@null</item>
+        <item name="ocCardFooterMargin">@dimen/anytime_tablet_library_app_tile_margin_horizontal</item>
+        <item name="ocCardFooterTopMargin">@dimen/abc_floating_window_z</item>
+        <item name="ocCardHoverBackground">?attr/ocOverlayOnMedia</item>
+        <item name="ocCardHoverFooterMargin">@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/ocPrimaryText</item>
+    </style>
+    <style name="Body1" parent="@style/Base">
+        <item name="android:textSize">@dimen/abc_text_size_menu_header_material</item>
+        <item name="lineHeight">@dimen/octypography_body1_line_height</item>
+    </style>
+    <style name="Body2" parent="@style/Base">
+        <item name="android:textSize">@dimen/anytime_tablet_profile_text_size_small</item>
+        <item name="lineHeight">@dimen/keypad_text_size</item>
+    </style>
+</resources>

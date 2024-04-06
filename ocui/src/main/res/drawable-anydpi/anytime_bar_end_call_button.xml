@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android" class="com.oculus.ocui.drawable.OCInteractionOverlayDrawable">
+    <shape android:shape="rectangle">
+        <corners android:radius="?attr/ocButtonBorderRadius"/>
+        <solid android:color="?attr/ocNegativeBackground"/>
+    </shape>
+</drawable>

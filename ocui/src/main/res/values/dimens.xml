@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_elevation_material">4dp</dimen>
+    <dimen name="abc_text_size_menu_header_material">14sp</dimen>
+    <dimen name="abc_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="active_call_bar_active_call_button_padding">12dp</dimen>
+    <dimen name="anytime_tablet_library_app_tile_margin_horizontal">0dp</dimen>
+    <dimen name="anytime_tablet_profile_text_size_large">24sp</dimen>
+    <dimen name="anytime_tablet_profile_text_size_small">11sp</dimen>
+    <dimen name="keypad_text_size">16sp</dimen>
+    <dimen name="ocopacity_disabled_opacity">0.35</dimen>
+    <dimen name="ocopacity_enabled_opacity">1</dimen>
+    <dimen name="octypography_body1_line_height">20sp</dimen>
+    <dimen name="octypography_h1_font_size">36sp</dimen>
+    <dimen name="octypography_h1_line_height">40sp</dimen>
+    <dimen name="octypography_h2_line_height">28sp</dimen>
+    <dimen name="settings_grid_tile_height">125dp</dimen>
+    <dimen name="settings_grid_tile_width">228dp</dimen>
+</resources>

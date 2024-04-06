@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/octile_title_icon_image"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/octilebutton_icon" />
+
+    <com.oculus.ocui.OCTextView
+        android:id="@+id/octile_button_label"
+        style="@style/Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/octilebutton_title"
+        app:layout_constraintBottom_toBottomOf="@+id/octile_title_icon_image"
+        app:layout_constraintStart_toEndOf="@+id/octile_title_icon_image"
+        app:layout_constraintTop_toTopOf="@+id/octile_title_icon_image" />
+
+    <com.oculus.ocui.OCTextView
+        android:id="@+id/octile_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="@color/octilebutton_title"
+        app:layout_constraintBottom_toTopOf="@+id/octile_subtitle"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.oculus.ocui.OCTextView
+        android:id="@+id/octile_subtitle"
+        style="@style/Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="@color/octilebutton_subtitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.oculus.ocui.OCTextView
+        android:id="@+id/octile_active_indicator_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.oculus.ocui.OCTextView
+        android:id="@+id/octile_cta_text"
+        style="@style/Body2"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="6dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="end|center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/octilebutton_subtitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/octile_cta_icon"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/octile_cta_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/oc_icon_chevron_right_filled_24"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/octilebutton_icon" />
+</merge>

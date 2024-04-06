@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ocAppTileBorderRadius" format="dimension" />
+    <attr name="ocCardBorderRadius" format="dimension" />
+    <attr name="ocDialogBorderRadius" format="dimension" />
+    <attr name="ocPanelBorderRadius" format="dimension" />
+    <attr name="ocCardStyle" format="reference"/>
+    <attr name="isControlBar" format="boolean" />
+    <attr name="hitSlopIsDebug" format="boolean"/>
+    <attr name="hitSlopIsMaintainMinimumSize" format="boolean"/>
+    <attr name="hitSlopOffsetBottom" format="dimension"/>
+    <attr name="hitSlopOffsetEnd" format="dimension"/>
+    <attr name="hitSlopOffsetStart" format="dimension"/>
+    <attr name="hitSlopOffsetTop" format="dimension"/>
+    <attr name="ocButtonStyle" format="reference"/>
+    <attr name="ocButtonBorderRadius" format="dimension"/>
+    <attr name="ocSecondaryButton" format="color"/>
+
+    <attr name="ocAccent" format="color"/>
+    <attr name="ocBadge" format="color"/>
+    <attr name="ocBottomNavBackground" format="color"/>
+    <attr name="ocBrowserNavBackground" format="color"/>
+    <attr name="ocCardBackground" format="color"/>
+    <attr name="ocCardBackgroundOnMedia" format="color"/>
+    <attr name="ocCardHoverOutline" format="color"/>
+    <attr name="ocCardHoverOverlay" format="color"/>
+    <attr name="ocContextMenuBackground" format="color"/>
+    <attr name="ocControlBackgroundActive" format="color"/>
+    <attr name="ocControlBackgroundInactive" format="color"/>
+    <attr name="ocControlBackgroundSegmented" format="color"/>
+    <attr name="ocControlIcon" format="color"/>
+    <attr name="ocDialogBackground" format="color"/>
+    <attr name="ocDisabledIcon" format="color"/>
+    <attr name="ocDisabledText" format="color"/>
+    <attr name="ocDivider" format="color"/>
+    <attr name="ocHoverOverlay" format="color"/>
+    <attr name="ocHoverOverlayOnMedia" format="color"/>
+    <attr name="ocIconButton" format="color"/>
+    <attr name="ocIconButtonBackground" format="color"/>
+    <attr name="ocIconButtonBackgroundOnMedia" format="color"/>
+    <attr name="ocIconOnMedia" format="color"/>
+    <attr name="ocKeyboardHoverOverlay" format="color"/>
+    <attr name="ocKeyboardPressedOverlay" format="color"/>
+    <attr name="ocLinkText" format="color"/>
+    <attr name="ocLinkTextOnHover" format="color"/>
+    <attr name="ocLinkTextOnPress" format="color"/>
+    <attr name="ocMessageBubbleGray" format="color"/>
+    <attr name="ocMessageBubblePrimary" format="color"/>
+    <attr name="ocMessageBubbleText" format="color"/>
+    <attr name="ocMessageReceivedBubbleBackground" format="color"/>
+    <attr name="ocMessageRepliedBackground" format="color"/>
+    <attr name="ocNegative" format="color"/>
+    <attr name="ocNegativeBackground" format="color"/>
+    <attr name="ocNotificationBackground" format="color"/>
+    <attr name="ocOverlayOnMedia" format="color"/>
+    <attr name="ocPanelBackground" format="color"/>
+    <attr name="ocPanelControlBarBackground" format="color"/>
+    <attr name="ocPanelSideNavBackground" format="color"/>
+    <attr name="ocPlaceholderIcon" format="color"/>
+    <attr name="ocPlaceholderText" format="color"/>
+    <attr name="ocPositive" format="color"/>
+    <attr name="ocPositiveBackground" format="color"/>
+    <attr name="ocPressedOverlay" format="color"/>
+    <attr name="ocPressedOverlayOnMedia" format="color"/>
+    <attr name="ocPrimaryButtonBackground" format="color"/>
+    <attr name="ocPrimaryButtonText" format="color"/>
+    <attr name="ocPrimaryIcon" format="color"/>
+    <attr name="ocPrimarySlider" format="color"/>
+    <attr name="ocPrimaryText" format="color"/>
+    <attr name="ocPrimaryTextOnMedia" format="color"/>
+    <attr name="ocProgressBarBackground" format="color"/>
+    <attr name="ocProgressIndicatorBackground" format="color"/>
+    <attr name="ocProgressIndicatorForeground" format="color"/>
+    <attr name="ocRunningAppIndicator" format="color"/>
+    <attr name="ocScrollbar" format="color"/>
+    <attr name="ocSecondaryButtonBackground" format="color"/>
+    <attr name="ocSecondaryButtonBackgroundOnMedia" format="color"/>
+    <attr name="ocSecondaryButtonText" format="color"/>
+    <attr name="ocSecondaryIcon" format="color"/>
+    <attr name="ocSecondarySlider" format="color"/>
+    <attr name="ocSecondaryText" format="color"/>
+    <attr name="ocSecondaryTextOnMedia" format="color"/>
+    <attr name="ocSliderBackground" format="color"/>
+    <attr name="ocSteppedProgressBarBackground" format="color"/>
+    <attr name="ocSteppedProgressBarBackgroundOnMedia" format="color"/>
+    <attr name="ocSteppedProgressBarIndicator" format="color"/>
+    <attr name="ocSteppedProgressBarIndicatorOnMedia" format="color"/>
+    <attr name="ocTabActiveBackground" format="color"/>
+    <attr name="ocTabSecondarySelector" format="color"/>
+    <attr name="ocTextInputBackground" format="color"/>
+    <attr name="ocTextInputNegativeOutline" format="color"/>
+    <attr name="ocTextInputPositiveOutline" format="color"/>
+    <attr name="ocTextInputSelectedOutline" format="color"/>
+    <attr name="ocTextSelectionBackground" format="color"/>
+    <attr name="ocToastBackground" format="color"/>
+    <attr name="ocTooltipBackground" format="color"/>
+    <attr name="ocWarning" format="color"/>
+    <attr name="ocWarningBackground" format="color"/>
+    
+    <declare-styleable name="OCTextView">
+        <attr name="android:textSize"/>
+        <attr name="android:lineHeight"/>
+        <attr name="allowFontScaling" format="boolean"/>
+        <attr name="lineHeight" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="OCButton">
+        <attr name="android:textColor"/>
+        <attr name="drawableCenter" format="reference"/>
+        <attr name="drawableCenterPadding" format="dimension"/>
+        <attr name="hitSlopIsDebug"/>
+        <attr name="hitSlopIsMaintainMinimumSize"/>
+        <attr name="hitSlopOffsetBottom"/>
+        <attr name="hitSlopOffsetEnd"/>
+        <attr name="hitSlopOffsetStart"/>
+        <attr name="hitSlopOffsetTop"/>
+        <attr name="mode">
+            <enum name="borderless" value="3" />
+            <enum name="borderlessOnMedia" value="4" />
+            <enum name="danger" value="5" />
+            <enum name="primary" value="0" />
+            <enum name="secondary" value="1" />
+            <enum name="secondaryOnMedia" value="2" />
+        </attr>
+        <attr name="tryAutoInsertOCHitSlop" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="OCCard">
+        <attr name="ocCardFooterBackground" format="reference"/>
+        <attr name="ocCardFooterMargin" format="dimension"/>
+        <attr name="ocCardFooterTopMargin" format="dimension"/>
+        <attr name="ocCardHoverBackground" format="reference"/>
+        <attr name="ocCardHoverFooterMargin" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="OCInteractionOverlayDrawable">
+        <attr name="ocInteractionOverlayHover" format="color"/>
+        <attr name="ocInteractionOverlayPress" format="color"/>
+        <attr name="ocInteractionUseBitmapMask" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="OCHitSlopLayout">
+        <attr name="hitSlopEnableEventInterception" format="boolean"/>
+        <attr name="hitSlopIsDebug"/>
+        <attr name="hitSlopIsMaintainMinimumSize"/>
+        <attr name="hitSlopOffsetBottom"/>
+        <attr name="hitSlopOffsetEnd"/>
+        <attr name="hitSlopOffsetStart"/>
+        <attr name="hitSlopOffsetTop"/>
+    </declare-styleable>
+    <declare-styleable name="OCPanel">
+        <attr name="hasRoundedCorners" format="boolean" />
+        <attr name="isControlBar" />
+        <attr name="showRipple" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="OCPanelBackgroundDrawable">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="disableRoundedCorners" format="boolean" />
+        <attr name="enableDither" format="boolean" />
+        <attr name="hasControlBarAttached" format="boolean" />
+        <attr name="isBright" format="boolean" />
+        <attr name="isControlBar" />
+        <attr name="solidBgColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="OCTileButton">
+        <attr name="activeIndicator" format="reference"/>
+        <attr name="background" format="reference"/>
+        <attr name="ctaText" format="reference"/>
+        <attr name="label" format="string"/>
+        <attr name="subtitleIcon" format="reference"/>
+        <attr name="subtitleText" format="string"/>
+        <attr name="title" format="string"/>
+        <attr name="titleIcon" format="reference"/>
+        <attr name="titleTextSize">
+            <enum name="large" value="2" />
+            <enum name="medium" value="1" />
+            <enum name="small" value="0" />
+        </attr>
+        <attr name="useBoldTitleText" format="boolean"/>
+    </declare-styleable>
+</resources>
